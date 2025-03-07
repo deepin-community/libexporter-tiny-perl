@@ -2,9 +2,92 @@ Exporter-Tiny
 =============
 
 Created:      2013-09-05
+Home page:    <https://exportertiny.github.io/>
 Home page:    <https://metacpan.org/release/Exporter-Tiny>
-Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Exporter-Tiny>
+Bug tracker:  <https://github.com/tobyink/p5-exporter-tiny/issues>
 Maintainer:   Toby Inkster (TOBYINK) <tobyink@cpan.org>
+
+1.006002	2023-03-31
+
+ [ Documentation ]
+ - Link to Exporter::Almighty in pod.
+ - Update copyright dates.
+
+ [ Packaging ]
+ - Set homepage in metadata to https://exportertiny.github.io.
+
+1.006001	2023-03-24
+
+ [ Documentation ]
+ - Don't mention Alt::Lexical::Var::ButSupportModernPerl in manual.
+
+ [ Packaging ]
+ - No longer dynamically recommend Alt::Lexical::Var::ButSupportModernPerl.
+
+1.006000	2022-11-21
+
+ [ Packaging ]
+ - Stable version number.
+
+1.005_000	2022-10-17
+
+ - Introduced lexical exporter support on Perl 5.11.2+ using the
+   Lexical::Var module.
+ - Refactored the Perl 5.37.2+ lexical exporter support.
+
+1.004004	2022-10-15
+
+ [ Documentation ]
+ - Minor corrections to QuickStart page in the manual.
+
+1.004003	2022-09-30
+
+ [ Bug Fixes ]
+ - If exporting non-CODE items which happen to have the same name as
+   exported CODE items, their export was being quietly blocked. These
+   exports should now work.
+   Diab Jerius++
+   <https://github.com/tobyink/p5-exporter-tiny/issues/9>
+ - Using ! with a tag now works; it was previously documented as working
+   but not implemented.
+   Diab Jerius++
+   <https://github.com/tobyink/p5-exporter-tiny/issues/8>
+
+1.004002	2022-09-16
+
+ [ Test Suite ]
+ - Fix for t/15nonhashvalue.t on old versions of Test::More which don't
+   support `done_testing`.
+
+1.004001	2022-09-09
+
+ [ Bug Fixes ]
+ - Fix handling of non-hashref references in import list.
+
+1.004000	2022-08-26
+
+ [ Documentation ]
+ - Document that the `-lexical` export option is experimental.
+
+ [ Packaging ]
+ - No functional changes; repackage as stable.
+
+1.003_002	2022-08-18
+
+ [ Bug Fixes ]
+ - Quote $1 when passing it as a parameter to a function
+   Eugen Konkov++
+   <https://github.com/tobyink/p5-exporter-tiny/issues/7>
+
+1.003_001	2022-07-21
+
+ [ Bug Fixes ]
+ - Correctly check Perl version is at least 5.37.2+ before supporting
+   -lexical option.
+
+1.003_000	2022-07-21
+
+ - Updated: Provide a `-lexical` export option on Perl 5.37.2+.
 
 1.002002	2020-04-24
 

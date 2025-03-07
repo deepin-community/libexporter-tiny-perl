@@ -18,16 +18,16 @@
 	doap-deps:runtime-requirement [ doap-deps:on "perl 5.006001"^^doap-deps:CpanId ];
 	doap-deps:test-recommendation [ doap-deps:on "Test::Fatal"^^doap-deps:CpanId ], [ doap-deps:on "Test::Warnings"^^doap-deps:CpanId ];
 	doap-deps:test-requirement [ doap-deps:on "Test::More 0.47"^^doap-deps:CpanId ];
-	doap:bug-database    <http://rt.cpan.org/Dist/Display.html?Queue=Exporter-Tiny>;
+	doap:bug-database    <https://github.com/tobyink/p5-exporter-tiny/issues>;
 	doap:created         "2013-09-05"^^xsd:date;
 	doap:developer       <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:download-page   <https://metacpan.org/release/Exporter-Tiny>;
-	doap:homepage        <https://metacpan.org/release/Exporter-Tiny>;
+	doap:homepage        <https://exportertiny.github.io/>, <https://metacpan.org/release/Exporter-Tiny>;
 	doap:license         <http://dev.perl.org/licenses/>;
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Exporter-Tiny";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-026>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-029_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-030>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-031_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-032>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-033_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-034>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-035_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-035_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-036>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-037_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-037_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-037_03>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-038>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-039_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-040>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-041_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-041_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-042>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-043_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-043_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-044>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-000000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-001_000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-001_001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002002>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-026>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-029_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-030>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-031_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-032>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-033_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-034>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-035_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-035_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-036>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-037_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-037_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-037_03>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-038>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-039_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-040>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-041_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-041_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-042>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-043_01>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-043_02>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_0-044>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-000000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-001_000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-001_001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002002>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_002>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004002>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004003>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004004>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-005_000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006000>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006001>, <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006002>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-exporter-tiny>;
@@ -467,6 +467,210 @@
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.002002.tar.gz>;
 	doap:revision        "1.002002"^^xsd:string.
 
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_000>
+	a                    cpan-uri:DeveloperRelease, doap:Version;
+	dc:identifier        "Exporter-Tiny-1.003_000"^^xsd:string;
+	dc:issued            "2022-07-21"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Update;
+			rdfs:label "Provide a `-lexical` export option on Perl 5.37.2+.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-002002>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.003_000.tar.gz>;
+	doap:revision        "1.003_000"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_001>
+	a                    cpan-uri:DeveloperRelease, doap:Version;
+	dc:identifier        "Exporter-Tiny-1.003_001"^^xsd:string;
+	dc:issued            "2022-07-21"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Bugfix;
+			rdfs:label "Correctly check Perl version is at least 5.37.2+ before supporting -lexical option.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_000>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.003_001.tar.gz>;
+	doap:revision        "1.003_001"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_002>
+	a                    cpan-uri:DeveloperRelease, doap:Version;
+	dc:identifier        "Exporter-Tiny-1.003_002"^^xsd:string;
+	dc:issued            "2022-08-18"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Bugfix;
+			rdfs:label "Quote $1 when passing it as a parameter to a function";
+			doap-changeset:thanks <urn:uuid:b9949163-3436-4e80-93f4-8be211e644c4>;
+			rdfs:seeAlso <https://github.com/tobyink/p5-exporter-tiny/issues/7>;
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_001>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.003_002.tar.gz>;
+	doap:revision        "1.003_002"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004000>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.004000"^^xsd:string;
+	dc:issued            "2022-08-26"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Packaging;
+			rdfs:label "No functional changes; repackage as stable.";
+		], [
+			a doap-changeset:Documentation;
+			rdfs:label "Document that the `-lexical` export option is experimental.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-003_002>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.004000.tar.gz>;
+	doap:revision        "1.004000"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004001>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.004001"^^xsd:string;
+	dc:issued            "2022-09-09"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Bugfix;
+			rdfs:label "Fix handling of non-hashref references in import list.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004000>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.004001.tar.gz>;
+	doap:revision        "1.004001"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004002>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.004002"^^xsd:string;
+	dc:issued            "2022-09-16"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Tests;
+			rdfs:label "Fix for t/15nonhashvalue.t on old versions of Test::More which don't support `done_testing`.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004001>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.004002.tar.gz>;
+	doap:revision        "1.004002"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004003>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.004003"^^xsd:string;
+	dc:issued            "2022-09-30"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Bugfix;
+			rdfs:label "Using ! with a tag now works; it was previously documented as working but not implemented.";
+			doap-changeset:thanks <http://purl.org/NET/cpan-uri/person/djerius>;
+			rdfs:seeAlso <https://github.com/tobyink/p5-exporter-tiny/issues/8>;
+		], [
+			a doap-changeset:Bugfix;
+			rdfs:label "If exporting non-CODE items which happen to have the same name as exported CODE items, their export was being quietly blocked. These exports should now work.";
+			doap-changeset:thanks <http://purl.org/NET/cpan-uri/person/djerius>;
+			rdfs:seeAlso <https://github.com/tobyink/p5-exporter-tiny/issues/9>;
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004002>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.004003.tar.gz>;
+	doap:revision        "1.004003"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004004>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.004004"^^xsd:string;
+	dc:issued            "2022-10-15"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Documentation;
+			rdfs:label "Minor corrections to QuickStart page in the manual.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004003>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.004004.tar.gz>;
+	doap:revision        "1.004004"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-005_000>
+	a                    cpan-uri:DeveloperRelease, doap:Version;
+	dc:identifier        "Exporter-Tiny-1.005_000"^^xsd:string;
+	dc:issued            "2022-10-17"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Change;
+			rdfs:label "Refactored the Perl 5.37.2+ lexical exporter support.";
+		], [
+			a doap-changeset:Change;
+			rdfs:label "Introduced lexical exporter support on Perl 5.11.2+ using the Lexical::Var module.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-004004>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.005_000.tar.gz>;
+	doap:revision        "1.005_000"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006000>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.006000"^^xsd:string;
+	dc:issued            "2022-11-21"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Packaging;
+			rdfs:label "Stable version number.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-005_000>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.006000.tar.gz>;
+	doap:revision        "1.006000"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006001>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.006001"^^xsd:string;
+	dc:issued            "2023-03-24"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Packaging;
+			rdfs:label "No longer dynamically recommend Alt::Lexical::Var::ButSupportModernPerl.";
+		], [
+			a doap-changeset:Documentation;
+			rdfs:label "Don't mention Alt::Lexical::Var::ButSupportModernPerl in manual.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006000>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.006001.tar.gz>;
+	doap:revision        "1.006001"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006002>
+	a                    doap:Version;
+	dc:identifier        "Exporter-Tiny-1.006002"^^xsd:string;
+	dc:issued            "2023-03-31"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Packaging;
+			rdfs:label "Set homepage in metadata to https://exportertiny.github.io.";
+		], [
+			a doap-changeset:Documentation;
+			rdfs:label "Link to Exporter::Almighty in pod.";
+		], [
+			a doap-changeset:Documentation;
+			rdfs:label "Update copyright dates.";
+		];
+		doap-changeset:versus <http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/v_1-006001>;
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Exporter-Tiny-1.006002.tar.gz>;
+	doap:revision        "1.006002"^^xsd:string.
+
 <http://purl.org/NET/cpan-uri/dist/Type-Tiny/project>
 	a                    doap:Project;
 	dc:contributor       <http://purl.org/NET/cpan-uri/person/tobyink>;
@@ -494,6 +698,12 @@
 	foaf:nick            "CHOCOLATEBOY";
 	foaf:page            <https://metacpan.org/author/CHOCOLATEBOY>.
 
+<http://purl.org/NET/cpan-uri/person/djerius>
+	a                    foaf:Person;
+	foaf:name            "Diab Jerius";
+	foaf:nick            "DJERIUS";
+	foaf:page            <https://metacpan.org/author/DJERIUS>.
+
 <http://purl.org/NET/cpan-uri/person/tobyink>
 	a                    foaf:Person;
 	foaf:mbox            <mailto:tobyink@cpan.org>;
@@ -505,6 +715,12 @@
 	a                    foaf:Person;
 	foaf:nick            "zhumengu";
 	foaf:page            <https://github.com/zhumengu>.
+
+<urn:uuid:b9949163-3436-4e80-93f4-8be211e644c4>
+	a                    foaf:Person;
+	foaf:name            "Eugen Konkov";
+	foaf:nick            "KES777";
+	foaf:page            <https://github.com/KES777>.
 
 []
 	a                    nfo:FileDataObject;

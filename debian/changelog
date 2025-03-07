@@ -1,3 +1,82 @@
+libexporter-tiny-perl (1.006002-1) unstable; urgency=medium
+
+  * Team upload.
+
+  * Import upstream version 1.006001.
+  * Update years of upstream copyright.
+
+  * Import upstream version 1.006002.
+  * Update Homepage in debian/control.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Jun 2023 18:48:30 +0200
+
+libexporter-tiny-perl (1.006000-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+  [ Jonas Smedegaard ]
+  * declare compliance with Debian Policy 4.6.2
+  * update copyright info:
+    + use fields License-Grant and Reference
+    + update coverage
+  * add source helper tool copyright-check
+  * update git-buildpackage config:
+    + sign tags
+    + use pristine-tar
+    + use DEP-14 git branches
+    + enable automatic DEP-14 branch name handling
+    + add usage config
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 02 Jan 2023 13:32:55 +0100
+
+libexporter-tiny-perl (1.004003-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.004003.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 04 Oct 2022 22:45:55 +0200
+
+libexporter-tiny-perl (1.004002-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.004002.
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Thu, 22 Sep 2022 00:37:21 +0530
+
+libexporter-tiny-perl (1.004001-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 1.004001.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Sep 2022 17:48:32 +0200
+
+libexporter-tiny-perl (1.004000-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Update lintian overrides for renamed tags.
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + libexporter-tiny-perl: Add Multi-Arch: foreign.
+
+  [ gregor herrmann ]
+  * debian/watch: use only one upstream URL.
+  * Import upstream version 1.004000.
+  * Update debian/upstream/metadata.
+  * Update years of upstream copyright.
+  * Drop devscripts from Build-Depends.
+    Unneeded after the cdbs → debhelper switch.
+  * Split Build-Depends into Build-Depends{,-Indep}.
+  * Declare compliance with Debian Policy 4.6.1.
+  * debhelper-compat = 13.
+  * Update lintian override (formatting).
+  * Add new test dependency: libtest-requires-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 30 Aug 2022 18:12:05 +0200
+
 libexporter-tiny-perl (1.002002-1) unstable; urgency=medium
 
   [ Debian Janitor ]
