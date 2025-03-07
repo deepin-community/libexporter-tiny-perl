@@ -25,15 +25,13 @@ my $meta = {
                         },
                       },
   "provides"       => {
-                        "Exporter::Shiny" => { file => "lib/Exporter/Shiny.pm", version => 1.002002 },
-                        "Exporter::Tiny"  => { file => "lib/Exporter/Tiny.pm", version => 1.002002 },
+                        "Exporter::Shiny" => { file => "lib/Exporter/Shiny.pm", version => 1.006002 },
+                        "Exporter::Tiny"  => { file => "lib/Exporter/Tiny.pm", version => 1.006002 },
                       },
   "release_status" => "stable",
   "resources"      => {
-                        bugtracker   => {
-                                          web => "http://rt.cpan.org/Dist/Display.html?Queue=Exporter-Tiny",
-                                        },
-                        homepage     => "https://metacpan.org/release/Exporter-Tiny",
+                        bugtracker   => { web => "https://github.com/tobyink/p5-exporter-tiny/issues" },
+                        homepage     => "https://exportertiny.github.io/",
                         license      => ["http://dev.perl.org/licenses/"],
                         repository   => {
                                           type => "git",
@@ -43,14 +41,26 @@ my $meta = {
                         x_identifier => "http://purl.org/NET/cpan-uri/dist/Exporter-Tiny/project",
                         x_IRC        => "irc://irc.perl.org/#moops",
                       },
-  "version"        => 1.002002,
+  "version"        => 1.006002,
 };
 
 my %dynamic_config;
 do {
-# idk, this should be automatic or summint? put it in explicitly.
-$meta->{prereqs}{runtime}{requires}{'Test::More'} = '0.47'
-	if $] < 5.006002;
+	my $prereq_type = 'recommends';
+
+	if ( $ENV{CI}
+	and defined $ENV{GITHUB_REPOSITORY}
+	and $ENV{GITHUB_REPOSITORY} eq 'tobyink/p5-exporter-tiny' ) {
+		$prereq_type = 'requires';
+	}
+
+	if ( $] ge 5.011002 and $] lt 5.037002 ) {
+		$meta->{prereqs}{runtime}{$prereq_type}{'Lexical::Var'} = '0.010';
+	}
+
+	# idk, this should be automatic or summint? put it in explicitly.
+	$meta->{prereqs}{runtime}{requires}{'Test::More'} = '0.47'
+		if $] lt 5.006002;
 
 };
 
@@ -123,6 +133,9 @@ else
 	}
 }
 
+
+my $mm = WriteMakefile(%WriteMakefileArgs);
+
 sub FixMakefile
 {
 	return unless -d 'inc';
@@ -144,7 +157,7 @@ sub FixMakefile
 	close MAKEFILE or die $!;
 }
 
-my $mm = WriteMakefile(%WriteMakefileArgs);
 FixMakefile($mm->{FIRST_MAKEFILE} || 'Makefile');
+
 exit(0);
 
